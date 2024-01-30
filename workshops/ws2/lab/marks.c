@@ -18,10 +18,10 @@ double calculateAverageMark(void) {
 	double average;
 	int noOfMarks;
 
-	printf("Please enter the number of marks:\n>");
+	printf("Please enter the number of marks\n> ");
 	noOfMarks = getInt();
 	while (counter < noOfMarks) {
-		printf("Enter mark number #%d\n>", counter + 1);
+		printf("Enter mark #%d\n> ", counter + 1);
 		markValue = getDouble();
 		markTotal = markTotal + markValue;
 		counter = counter + 1;

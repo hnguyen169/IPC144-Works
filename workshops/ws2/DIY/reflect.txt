@@ -1,0 +1,9 @@
+//Name: Harrison Nguyen
+//Email: hnguyen169@myseneca.ca
+//ID: 167096239
+//Date Compeleted: 02/05/2024
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+Working on workshop #2, I had to use the concepts learned in class, such as while loops, scanf, and working outside the main.c file. Working outside the main.c file was a little daunting at first, but it is essentially the same as working with the main function above off-screen. Scanf was used, but my code in draw.c did not include "scanf" itself. The values for scanf were used from the rectangle function in main.c, which means I did not have to use scanf again and instead used printf to print the values that scanf were holding in main.c. While loops were needed to output a certain amount of characters based on the inputted width, they were also used to create multiple of the middle rows based on height.
+
+I think this workshop was the first time I truly struggled with coding in C. For the other times I had trouble in C, I would at the very least understand the logic and concept. Looking at workshop #2 I felt completely lost and was unsure where to begin. I initially started by creating a function for each of the functions inside the rectangle function(leftTop, top, topRight, etc.) but realized this was not going to work for me. I then separated my work by rows, working on the top row, middle row, and bottom row individually. From here, I started to understand the problem better and was able to use the while loops and scanf function we learned in class to complete the rows. I think my biggest problems in this workshop were overthinking and not knowing how to begin the code.

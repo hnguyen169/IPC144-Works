@@ -15,7 +15,7 @@ void prnGrade(char grade) {
 	else {
 		printf("A+");
 	}
-	return 0;
+
 }
 
 int getNoOfStudents(void) {	
@@ -38,7 +38,7 @@ int getNoOfStudents(void) {
 
 int getMark(int maximumAcceptableMarkValue) {
 	int mark;
-	printf("Please print a mark between 0 and '%d': \n > ", maximumAcceptableMarkValue);
+	printf("Please print a mark between 0 and %d:\n> ", maximumAcceptableMarkValue);
 	scanf("%d", &mark);
 
 		if (mark < 0 || mark > maximumAcceptableMarkValue) {
@@ -54,33 +54,30 @@ int getMark(int maximumAcceptableMarkValue) {
 }
 
 char grade(int mark) {
-    if (mark > 100 || mark < 0) {
-        printf("X");
-    }
-
+	char grd = 'X';
 	if (mark > 89 && mark < 101) {
-        printf("A+");
+        grd = '+';
     }
 
     if (mark > 79 && mark < 90) {
-        printf("A");
+		grd = 'A';
     }
 
     if (mark > 69 && mark < 80) {
-        printf("B");
+		grd = 'B';
     }
 
     if (mark > 59 && mark < 70) {
-        printf("C");
+		grd = 'C';
     }
 
     if (mark > 49 && mark < 60) {
-        printf("D");
+		grd = 'D';
     }
 
 	if (mark > -1 && mark < 50) {
-		printf("F");
+		grd = 'F';
 	}
-	return 0;
+	return grd;
 }
 

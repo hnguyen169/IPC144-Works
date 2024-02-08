@@ -32,7 +32,7 @@ void getMarkTester(void);
 void testerProgram(void);
 
 int main(void) {
-    testerProgram();
+    gradeTester();
 //   gradeTester();
 //   getNoOfStudentsTester();
 //   getMarkTester();

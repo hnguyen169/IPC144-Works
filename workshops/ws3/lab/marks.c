@@ -15,6 +15,7 @@ void prnGrade(char grade) {
 	else {
 		printf("A+");
 	}
+	return 0;
 }
 
 int getNoOfStudents(void) {	
@@ -80,5 +81,6 @@ char grade(int mark) {
 	if (mark > -1 && mark < 50) {
 		printf("F");
 	}
+	return 0;
 }
 

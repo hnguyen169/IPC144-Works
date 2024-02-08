@@ -1,3 +1,9 @@
+// Name: Harrison Nguyen
+// Email: hnguyen169@myseneca.ca
+// Student ID: 167096239
+// Date: 02/07/2024
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
@@ -37,8 +43,8 @@ int getMark(int maximumAcceptableMarkValue) {
 		if (mark < 0 || mark > maximumAcceptableMarkValue) {
 			printf("Invalid Mark!\n");
 			return -1;
-
 		}
+
 		else {
 			mark = mark * 100 / maximumAcceptableMarkValue;
 		}
@@ -47,7 +53,6 @@ int getMark(int maximumAcceptableMarkValue) {
 }
 
 char grade(int mark) {
-	
     if (mark > 100 || mark < 0) {
         printf("X");
     }

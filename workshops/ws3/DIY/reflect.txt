@@ -1,0 +1,7 @@
+// Name: Harrison Nguyen
+// Email: hnguyen169@myseneca.ca
+// Student ID: 167096239
+// Date: 02/19/2024
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+Working on the workshop 3 DIY section, I learned how to create modules with header files, use if, if else statements, and to reuse functions. I created modules by creating a header file with #ifndef, #endif, and all of the function prototypes from the corresponding c files. The use of header files will save a lot of time because you can reuse any useful functions from the past such as the functions in utils. Instead of rewriting the whole function again, I can simply call the function getInt(); again after including utils.h. I also reused functions from the lab section of this workshop and hacked the old functions to fit the current section. I also had more practice with if, if else statements through creating a for loop and having to find the lowest and highest marks from the user's inputs. A big difficulty for me during this workshop was knowing how to include the current student number without a random output displaying when an invalid mark is entered. It worked out for me once I created currentStudentNumber and passed it through getMark. Another reoccurring issue I had was knowing where or how to start coding. I think with more practice and confidence I will be more comfortable with beginning projects.

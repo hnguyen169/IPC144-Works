@@ -1,2 +1,0 @@
-#ifndef SENECA_PRO_H
-#define SENECA_PRO_H

@@ -1,0 +1,7 @@
+// Name: Harrison Nguyen
+// Email: hnguyen169@myseneca.ca
+// Student ID: 167096239
+// Date: 03/16/2024
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+Completing workshop 4 has helped me improve my knowledge and confidence with working with arrays. Passing arrays to functions was an important factor in the workshop. Two separate arrays were passed to two different functions with one obtaining data for the arrays and the other using the obtained data. "Const" was used to pass read-only arrays to functions which is important to make sure the output is the one we want. Parallel arrays were used to hold the student numbers and their corresponding marks. Workshop 4 has also helped me become more comfortable with header files, for loops, and paying attention to details. In class and in practice, double would often be used instead of float which means I had to pay close attention because the workshop used float instead of double. I caught myself automatically typing "%lf" instead of "%f" for a specifier because of how often I would use double. 

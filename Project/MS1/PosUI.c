@@ -1,3 +1,18 @@
+/* Citation and Sources...
+Final Project Milestone 1
+Module: PosUI
+Filename: PosUI.c
+Version 1.0
+Author	Harrison Nguyen
+Revision History
+-----------------------------------------------------------
+Date      Reason
+
+-----------------------------------------------------------
+I have done all the coding by myself and only copied the code
+that my professor provided to complete my project milestones.
+-----------------------------------------------------------*/
+
 #include "utils.h"
 #include "PosAPP.h"
 

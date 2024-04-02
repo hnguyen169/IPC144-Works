@@ -1,0 +1,15 @@
+/* Citation and Sources...
+Final Project Milestone 1
+Filename: reflect.txt
+Version 1.0
+Author	Harrison Nguyen
+Revision History
+-----------------------------------------------------------
+Date      Reason
+
+-----------------------------------------------------------
+I have done all the coding by myself and only copied the code
+that my professor provided to complete my project milestones.
+-----------------------------------------------------------*/
+
+I enjoyed working on milestone 1 of the final project because we are creating an interactive menu. It was fun creating the actual menu itself via printf and creating a switch loop to call each of the menu selections. As with working on the workshops, I found myself still making a lot of syntax errors which I had to fix by learning to read and understand the error codes. I had some issues with the getIntMM function initially because I did not pass the arguments correctly. I had the correct arguments for getIntMM under default of the switch loop but did not think I needed them when setting the variable selection. I am unsure of the purpose of creating POS.h but there was a value check in main.c. I assume these values may be used in the future milestones for calculations or changes.

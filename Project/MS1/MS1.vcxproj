@@ -134,7 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="POS.h" />
-    <ClInclude Include="PosApp.h" />
+    <ClInclude Include="PosAPP.h" />
     <ClInclude Include="PosUI.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>

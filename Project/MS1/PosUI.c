@@ -13,13 +13,14 @@ I have done all the coding by myself and only copied the code
 that my professor provided to complete my project milestones.
 -----------------------------------------------------------*/
 
+#include <stdio.h>
 #include "utils.h"
 #include "PosAPP.h"
 
-int menu(void) {
+void menu(void) {
 	printf(
 		"The Sene-Store\n"
-		"1- Iventory\n"
+		"1- Inventory\n"
 		"2- Add item\n"
 		"3- Remove item\n"
 		"4- Stock item\n"
@@ -34,7 +35,7 @@ void runPos(const char filename[]) {
 	loadItems("posdata.csv");
 	while (!done) {
 		menu();
-		selection = getIntMM(0, 5, "Selectiion");
+		selection = getIntMM(0, 5, "Selection");
 		switch (selection) {
 		case 1:
 			inventory();

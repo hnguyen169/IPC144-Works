@@ -35,7 +35,7 @@
     <ClInclude Include="PosUI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PosApp.h">
+    <ClInclude Include="PosAPP.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="POS.h">

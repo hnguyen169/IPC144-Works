@@ -32,7 +32,7 @@ void menu(void) {
 void runPos(const char filename[]) {
 	int done = 0;
 	int selection = 0;
-	loadItems("posdata.csv");
+	loadItems(filename);
 	while (!done) {
 		menu();
 		selection = getIntMM(0, 5, "Selection");
@@ -53,7 +53,7 @@ void runPos(const char filename[]) {
 			POS();
 			break;
 		case 0:
-			saveItems("posdata.csv");
+			saveItems(filename);
 			printf("Goodbye!\n");
 			done = 1;
 			break;

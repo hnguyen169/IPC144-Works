@@ -15,7 +15,7 @@ that my professor provided to complete my project milestones.
 
 #include <stdio.h>
 #include "utils.h"
-#include "PosAPP.h"
+#include "PosApp.h"
 
 void menu(void) {
 	printf(

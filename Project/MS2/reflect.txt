@@ -1,0 +1,15 @@
+/* Citation and Sources...
+Final Project Milestone 2
+Filename: reflect.txt
+Version 1.0
+Author	Harrison Nguyen
+Revision History
+-----------------------------------------------------------
+Date      Reason
+
+-----------------------------------------------------------
+I have done all the coding by myself and only copied the code
+that my professor provided to complete my project milestones.
+-----------------------------------------------------------*/
+
+While working on milestone 2 I noticed some errors in milestone 1 PosUI.c. In the function runPos, I called two functions loadItems and saveItems which both have the file passed through its argument. My mistake in milestone 1 was writing the actual file name in the argument rather than a parameter that would read what was originally passed through(correctly) to the runPos function. This error did not effect the code at that time because those functions only printed text and did not use anything in the file. I realized the mistake from those two functions because I made the same mistake again with loadItems in milestone 2. Another issue I had was using the correct syntax when referencing the addresses for loadItems and listItems.

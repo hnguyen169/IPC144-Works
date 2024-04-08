@@ -1,0 +1,15 @@
+/* Citation and Sources...
+Final Project Milestone 32
+Filename: reflect.txt
+Version 1.0
+Author	Harrison Nguyen
+Revision History
+-----------------------------------------------------------
+Date      Reason
+
+-----------------------------------------------------------
+I have done all the coding by myself and only copied the code
+that my professor provided to complete my project milestones.
+-----------------------------------------------------------*/
+
+In milestone 32, billDisplay was relatively straightforward to create as it used similar concepts as listItems in milestone 2. The billDisplay and listItems functions both start off with a local cString used to display a shortened version of item name. Both functions used printf format and display the data. Inline caluclations were used to display the taxed portions in both functions. The difference in the billDisplay function was the string of "Yes" instead of a character "T".

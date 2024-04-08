@@ -25,6 +25,7 @@ struct Item {
 	int qty;
 };
 
+double billDisplay(const struct Item* item);
 double cost(const struct Item* item);
 int loadItems(const char filename[]);
 void saveItems(const char filename[]);

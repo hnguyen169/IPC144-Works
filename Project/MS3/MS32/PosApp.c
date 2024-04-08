@@ -88,6 +88,14 @@ void POS(void) {
    start("Point Of Sale");
 }
 
+double billDisplay(const struct Item* item) {
+	char List[15];
+	strncpy(List, item->name, 14);
+	List[14] = '\0';
+	printf("| %-14s|%10.2lf | %-3s |\n", List, cost(item), item->taxed ? "Yes" : " ");
+	return cost(item);
+}
+
 double cost(const struct Item* item) {
 	double the_cost;
 	the_cost = item->price * (1 + item->taxed * TAX);

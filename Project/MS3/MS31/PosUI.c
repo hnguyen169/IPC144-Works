@@ -1,5 +1,5 @@
 /* Citation and Sources...
-Final Project Milestone 2
+Final Project Milestone 3
 Module: PosUI
 Filename: PosUI.c
 Version 1.0

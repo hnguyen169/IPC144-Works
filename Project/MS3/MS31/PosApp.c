@@ -1,5 +1,5 @@
 /* Citation and Sources...
-Final Project Milestone 2
+Final Project Milestone 3
 Module: PosApp
 Filename: PosApp.c
 Version 1.0
@@ -45,7 +45,19 @@ int loadItems(const char filename[]) {
 }
 
 void saveItems(const char filename[]) {
-   start("Saving Items");
+	int i;
+	start("Saving Items");
+	FILE* file = fopen(filename, "w");
+	if (file) {
+		for (i = 0; i < noOfItems; i++) {
+			fprintf(file, "%s,%s,%.2lf,%d,%d\n", items[i].SKU, items[i].name, items[i].price, items[i].taxed, items[i].qty);
+		}
+		fclose(file);
+		start("Done!");
+	}
+	else {
+		printf("Could not open >>%s<<\n", filename);
+	}
 }
 
 void inventory(void) {

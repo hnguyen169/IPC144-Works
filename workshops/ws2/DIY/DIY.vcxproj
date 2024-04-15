@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="draw.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="main_prof.c" />
     <ClCompile Include="utils.c" />
   </ItemGroup>
   <ItemGroup>

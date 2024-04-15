@@ -1,0 +1,15 @@
+/* Citation and Sources...
+Final Project Milestone 35
+Filename: reflect.txt
+Version 1.0
+Author	Harrison Nguyen
+Revision History
+-----------------------------------------------------------
+Date      Reason
+
+-----------------------------------------------------------
+I have done all the coding by myself and only copied the code
+that my professor provided to complete my project milestones.
+-----------------------------------------------------------*/
+
+Working on each part of milestone 3 was an enjoyable experience. It was fun creating new functions and incorporating the old ones together throughout the project. The biggest issues I had in the project were correctly using structure arrays and knowing when to use pointers. I understood the logic in class but had some problems with the proper notation in arguments and inside the functions.

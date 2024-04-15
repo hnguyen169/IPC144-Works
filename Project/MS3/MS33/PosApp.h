@@ -28,6 +28,7 @@ struct Item {
 double billDisplay(const struct Item* item);
 double cost(const struct Item* item);
 int loadItems(const char filename[]);
+void display(const struct Item* item);
 void saveItems(const char filename[]);
 void start(const char* action);
 void inventory(void);

@@ -138,6 +138,22 @@ void display(const struct Item* item) {
 }
 
 int search(void) {
+	char read[MAX_SKU_LEN + 1];
+	int i;
 
-	return 0;
+	printf("Sku: ");
+
+	fgets(read, MAX_SKU_LEN + 1, stdin);
+	read[strcspn(read, "\n")] = '\0';
+
+	if (read[0] == '\0') {
+		return -2;
+	}
+
+	for (i = 0; i < noOfItems; i++) {
+		if (strcmp(items[i].SKU, read) == 0) {
+			return i;
+		}
+	}
+	return -1;
 }
